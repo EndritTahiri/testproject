@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.section-one {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+}
+nav {
+    margin: 0;
+    
+    width: 95%;
+    background-color: white;
+    color: black;
+    margin-top: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    font-family: sans-serif;
+
+}
+.nav-list {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding: 20px;
+    list-style: none;
+    
+}
+.nav-list button {
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(40,56,73);
+    color: white;
+    
+}
+.nav-link:hover, button:hover {
+    cursor: pointer;
+    
+}
