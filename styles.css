@@ -1,18 +1,22 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
+
 .section-one {
     background-color: black;
     color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 500px;
+    height: 800px;
+    gap: 150px;
 }
+
 nav {
     margin: 0;
-    
+
     width: 95%;
     background-color: white;
     color: black;
@@ -21,9 +25,10 @@ nav {
     display: flex;
     align-items: center;
     justify-content: right;
-    font-family: sans-serif;
+
 
 }
+
 .nav-list {
     margin: 0;
     display: flex;
@@ -32,18 +37,64 @@ nav {
     gap: 50px;
     padding: 20px;
     list-style: none;
-    
+
 }
+
 .nav-list button {
     width: 100px;
     height: 40px;
     border-radius: 10px;
     border: none;
-    background-color: rgb(40,56,73);
+    background-color: rgb(40, 56, 73);
     color: white;
-    
+
 }
-.nav-link:hover, button:hover {
+
+.nav-link:hover,
+button:hover {
     cursor: pointer;
-    
+
+}
+
+.introduction {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+
+
+
+}
+
+.intro-content {
+    width: 60%;
+    text-align: justify;
+}
+
+.intro-content h1 {
+    font-size: 46px;
+    margin: 0;
+    font-weight: 100;
+
+}
+
+.intro-content h2 {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.intro-content p {
+    width: 80%;
+    font-size: 1.4em;
+    font-weight: 100;
+}
+
+.intro-img {
+    border-radius: 50%;
+    height: 350px;
+    width: 350px;
+    background-size: cover;
+    background-position: center;
+
 }
