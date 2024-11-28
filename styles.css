@@ -1,5 +1,3 @@
-
-
 body {
     margin: 0;
     padding: 0;
@@ -12,7 +10,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 1350px;
+    height: 1400px;
     gap: 150px;
 
 }
@@ -113,8 +111,8 @@ button:hover {
 }
 
 .introduction-icons img {
-    height: 50px;
-    width: 50px;
+    height: 75px;
+    width: 75px;
     background-size: cover;
     background-position: center;
     border-radius: 50%;
@@ -237,7 +235,7 @@ button:hover {
     background-color: black;
     color: white;
     width: 90%;
-    
+
 
     border-radius: 20px;
     display: flex;
@@ -247,7 +245,7 @@ button:hover {
 
 .section-two-one {
     display: flex;
-    
+
     padding: 30px;
 }
 
@@ -257,18 +255,18 @@ button:hover {
     height: 250px;
     font-size: 42px;
     padding-left: 50px;
-    box-sizing:border-box;
+    box-sizing: border-box;
     padding-top: 50px;
-    
+
 }
 
 .section-two-text {
     width: 650px;
     height: 270px;
     padding: 130px 130px 30px 30px;
-    box-sizing:border-box;
-    
-    
+    box-sizing: border-box;
+
+
 }
 
 .section-two-two {
@@ -277,9 +275,162 @@ button:hover {
     justify-content: space-between;
     padding: 0 100px 50px;
     font-size: 42px;
+
+
+}
+
+.section-two-two p,
+.section-two-title p {
+    margin: 0;
+}
+
+.section-three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.section-three-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.section-three-text h2 {
+    margin: 0;
+    font-size: 42px;
+    font-weight: 200;
+}
+
+.section-three-text p {
+    text-align: center;
+    width: 60%;
+}
+
+.section-three-images {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.section-three-images img {
+    height: 200px;
+    width: 300px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    margin-top: 50px;
+
+}
+
+figure {
+    margin: 0;
+}
+
+figcaption {
+    padding-top: 10px;
+}
+
+.section-four {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    margin-top: 50px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.get-in-touch {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    gap: 30px;
+}
+
+.get-in-touch h2 {
+    font-size: 42px;
+    margin: 40px 0;
+}
+
+.input {
+    background-color: rgb(48,48,48);
+    color: white;
+    border: 1px solid white;
     
+    border-radius: 5px;
+    width: 375px;
+    height: 30px;
+    box-sizing: border-box;
+    padding: 5px;
     
 }
-.section-two-two p, .section-two-title p {
-    margin: 0;
+
+.input::placeholder {
+    color: white;
+    font-size: 16px;
+    justify-content: center;
+}
+
+.input.textarea {
+    height: 120px;
+}
+
+.get-in-touch p {
+    color: 
+}
+.newsletter {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-size: 12px;
+    gap: 5px;
+}
+
+input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+    color: black;
+}
+
+.s4-button {
+    height: 35px;
+    width: 100px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+.address {
+    width: 400px;
+    padding: 25px 15px 15px 15px;
+    display: flex;
+    flex-direction: column;
+    
+    gap: 20px;
+}
+
+#map {
+    border-radius: 10px;
+}
+
+span {
+    padding-left: 5px;
+}
+
+.socials {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 15px;
 }
